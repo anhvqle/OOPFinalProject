@@ -60,7 +60,9 @@ public class Driver {
 		
 //		Declaring a fifth location
 		Location field = new Location("Indiana", "Field");
-		
+		field.addToCollection(new Item("Corn", "Food", "Indiana Corn Field"));
+		field.addToCollection(new Item("Shovel", "Tool", "Can be used as weapon"));		
+
 //		Connection multiple locations
 		
 //				Forest
